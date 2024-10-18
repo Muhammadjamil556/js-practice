@@ -32,3 +32,35 @@ const fun = function(){
 }
 myFunction();
 fun()
+
+
+
+
+
+
+//++++++++++++++++++++++++++Memory types +++++++++++++++++
+
+
+//stack (premitive) , heap (non premetive )
+
+let name ="jamil";
+let fullName =name;
+fullName="muhammad jamil"
+
+// console.log(name)
+// console.log(fullName)
+
+
+const userOne ={
+    email:"jamiil@gmail.com",
+    id:"12334"
+}
+
+const userTwo =userOne
+
+
+userOne.email="jamiljamil@gmail.com"
+
+console.log(userOne);
+
+console.log(userTwo);
